@@ -1,2 +1,4 @@
+*.srt
+*.webm
 __pycache__
 __marimo__
