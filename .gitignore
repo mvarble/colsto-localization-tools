@@ -2,3 +2,13 @@
 *.webm
 __pycache__
 __marimo__
+
+# Generated data (recreate with the named scripts)
+# tutorials/make_dataset.py, tutorials/polars_funnel.py, tutorials/score_candidates.py
+data/
+# scripts/extract_frames.sh
+frames/
+# default outputs of tutorials/doppler_explorer.py, native_controls.py, quick_scatter.py
+doppler_fit.html
+cpa_timeline.html
+*.scatter.html
